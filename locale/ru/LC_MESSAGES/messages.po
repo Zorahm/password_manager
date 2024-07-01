@@ -1,0 +1,86 @@
+msgid "Password Manager"
+msgstr "Менеджер Паролей"
+
+msgid "Number of passwords:"
+msgstr "Количество паролей:"
+
+msgid "Password length:"
+msgstr "Длина пароля:"
+
+msgid "Include uppercase letters"
+msgstr "Включить заглавные буквы"
+
+msgid "Include numbers"
+msgstr "Включить цифры"
+
+msgid "Include special characters"
+msgstr "Включить спецсимволы"
+
+msgid "Exclude characters:"
+msgstr "Исключить символы:"
+
+msgid "Generate passwords"
+msgstr "Сгенерировать пароли"
+
+msgid "Save passwords"
+msgstr "Сохранить пароли"
+
+msgid "File with encrypted passwords:"
+msgstr "Файл с зашифрованными паролями:"
+
+msgid "Key file:"
+msgstr "Файл с ключом:"
+
+msgid "Browse"
+msgstr "Обзор"
+
+msgid "Decrypt passwords"
+msgstr "Расшифровать пароли"
+
+msgid "Load and decrypt passwords"
+msgstr "Загрузить и расшифровать пароли"
+
+msgid "Service:"
+msgstr "Сервис:"
+
+msgid "Add service"
+msgstr "Добавить сервис"
+
+msgid "Save decrypted passwords with services"
+msgstr "Сохранить расшифрованные пароли с сервисами"
+
+msgid "Select file with encrypted passwords"
+msgstr "Выберите файл с зашифрованными паролями"
+
+msgid "Select key file"
+msgstr "Выберите файл с ключом"
+
+msgid "Warning"
+msgstr "Внимание"
+
+msgid "No passwords to save"
+msgstr "Нет паролей для сохранения"
+
+msgid "Plain passwords saved successfully."
+msgstr "Нешифрованные пароли успешно сохранены."
+
+msgid "Passwords saved and encrypted"
+msgstr "Пароли сохранены и зашифрованы"
+
+msgid "Passwords copied to clipboard"
+msgstr "Пароли скопированы в буфер обмена"
+
+msgid "Failed to save passwords: "
+msgstr "Не удалось сохранить пароли: "
+
+msgid "Passwords decrypted successfully."
+msgstr "Пароли успешно расшифрованы."
+
+msgid "Failed to decrypt passwords: "
+msgstr "Не удалось расшифровать пароли: "
+
+msgid "Decrypted passwords with services saved successfully."
+msgstr "Расшифрованные пароли с сервисами успешно сохранены."
+
+msgid "Failed to save decrypted passwords with services: "
+msgstr "Не удалось сохранить расшифрованные пароли с сервисами: "

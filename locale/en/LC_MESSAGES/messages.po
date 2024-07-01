@@ -1,0 +1,86 @@
+msgid "Password Manager"
+msgstr "Password Manager"
+
+msgid "Number of passwords:"
+msgstr "Number of passwords:"
+
+msgid "Password length:"
+msgstr "Password length:"
+
+msgid "Include uppercase letters"
+msgstr "Include uppercase letters"
+
+msgid "Include numbers"
+msgstr "Include numbers"
+
+msgid "Include special characters"
+msgstr "Include special characters"
+
+msgid "Exclude characters:"
+msgstr "Exclude characters:"
+
+msgid "Generate passwords"
+msgstr "Generate passwords"
+
+msgid "Save passwords"
+msgstr "Save passwords"
+
+msgid "File with encrypted passwords:"
+msgstr "File with encrypted passwords:"
+
+msgid "Key file:"
+msgstr "Key file:"
+
+msgid "Browse"
+msgstr "Browse"
+
+msgid "Decrypt passwords"
+msgstr "Decrypt passwords"
+
+msgid "Load and decrypt passwords"
+msgstr "Load and decrypt passwords"
+
+msgid "Service:"
+msgstr "Service:"
+
+msgid "Add service"
+msgstr "Add service"
+
+msgid "Save decrypted passwords with services"
+msgstr "Save decrypted passwords with services"
+
+msgid "Select file with encrypted passwords"
+msgstr "Select file with encrypted passwords"
+
+msgid "Select key file"
+msgstr "Select key file"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "No passwords to save"
+msgstr "No passwords to save"
+
+msgid "Plain passwords saved successfully."
+msgstr "Plain passwords saved successfully."
+
+msgid "Passwords saved and encrypted"
+msgstr "Passwords saved and encrypted"
+
+msgid "Passwords copied to clipboard"
+msgstr "Passwords copied to clipboard"
+
+msgid "Failed to save passwords: "
+msgstr "Failed to save passwords: "
+
+msgid "Passwords decrypted successfully."
+msgstr "Passwords decrypted successfully."
+
+msgid "Failed to decrypt passwords: "
+msgstr "Failed to decrypt passwords: "
+
+msgid "Decrypted passwords with services saved successfully."
+msgstr "Decrypted passwords with services saved successfully."
+
+msgid "Failed to save decrypted passwords with services: "
+msgstr "Failed to save decrypted passwords with services: "
