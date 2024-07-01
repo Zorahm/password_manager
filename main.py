@@ -1,5 +1,6 @@
+import gettext
+import locale
 import os
-os.environ['GIT_PYTHON_GIT_EXECUTABLE'] = r'C:\Program Files\Git\bin\git.exe'
 import sys
 import logging
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton,
@@ -8,8 +9,6 @@ import pyperclip  # Для копирования в буфер обмена
 from password_generator import generate_multiple_passwords
 from encryption_utils import generate_key, save_encrypted_passwords, read_encrypted_passwords
 import git
-import gettext
-import locale
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -32,7 +31,9 @@ def update_from_github(repo_path):
 
 # Настройка многоязычной поддержки
 def setup_translation():
-    current_locale, encoding = locale.getdefaultlocale()
+    current_locale = locale.getlocale()[0]
+    if current_locale is None:
+        current_locale = 'en_US'
     locale_path = os.path.join(os.path.dirname(__file__), 'locale')
     language = gettext.translation('messages', localedir=locale_path, languages=[current_locale], fallback=True)
     language.install()
