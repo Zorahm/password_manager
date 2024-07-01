@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+.build/
+.dist/
+*.tcl
+*.key
+locale/*.mo
+*.pyc
+*.exe
+*.spec
+.DS_Store
