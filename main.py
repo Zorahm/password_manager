@@ -22,8 +22,16 @@ def update_from_github(repo_path):
     try:
         repo = git.Repo(repo_path)
         origin = repo.remotes.origin
-        origin.pull()
-        logging.info("Репозиторий успешно обновлен.")
+        # Получаем информацию о удаленном репозитории
+        fetch_info = origin.fetch()
+        # Проверяем, есть ли изменения
+        if fetch_info:
+            origin.pull()
+            logging.info("Есть новая версия, обновляемся...")
+            print("Есть новая версия, обновляемся...")
+        else:
+            logging.info("Обновлений нет, все стабильно :)")
+            print("Обновлений нет, все стабильно :)")
         return True
     except Exception as e:
         logging.error(f"Ошибка обновления репозитория: {e}")
@@ -34,6 +42,7 @@ def setup_translation():
     current_locale = locale.getlocale()[0]
     if current_locale is None:
         current_locale = 'en_US'
+    logging.info(f"Detected locale: {current_locale}")
     locale_path = os.path.join(os.path.dirname(__file__), 'locale')
     language = gettext.translation('messages', localedir=locale_path, languages=[current_locale], fallback=True)
     language.install()
